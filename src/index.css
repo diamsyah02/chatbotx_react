@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Nunito';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+code {
+  font-family: 'Nunito';
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+    url("./assets/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
